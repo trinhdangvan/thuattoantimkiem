@@ -21,7 +21,7 @@ $number =rand(1,200);
 echo 'so toi nghi la'.$number .'<br>';
 $numbers=range(1,200,1);
 if(binarySearch($numbers,$number) !=FALSE){
-    echo "$number tro choi ket thuc\n";
+    echo "$number tro choi ket thuc_hanh\n";
 }else{
     echo "$number Not Found\n";
 }
